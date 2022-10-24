@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   try {
     const TagData = await Tag.findByPk(req.params.id,{
-      include: [{ model: Product }],
+      through: [{model: ProductTag}],
     });
 
     if (!TagData) {
@@ -49,7 +49,6 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   try {
     const TagData = await Tag.update(req.body,{
-    },{
       where: {
         id: req.params.id
       }
