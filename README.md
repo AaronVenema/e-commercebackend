@@ -10,7 +10,7 @@
 * [Acceptance Criteria](#Acceptance-Criteria)
 
 ### Demo
-
+![gif](https://github.com/AaronVenema/e-commercebackend/blob/main/demo/demoGif.gif)
 
 ### Description
 e-commerceBackEnd is an mysql2 application that can help the user stay organized when managing server side data. It features the ability to add categories, tags, and product tags. It features the ability to view categories, tags, and product tags. It features the ability to update categories, tags, and product tags. It features the ability to delete categories, tags, and product tags 
